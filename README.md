@@ -4,11 +4,17 @@
 **PROJECT OVERVIEW**
 
 This is a strategic two-player auction game where a fixed quantity (x QU) of a product is auctioned in rounds of 2 QU each. Both players (or bidding agents) start with a fixed amount of money (y MU).
+
   •	In each round, players submit secret bids for the current 2 QU.
+  
   •	After both bids are placed, they are revealed:
+  
     ->	The player with the higher bid wins the 2 QU.
+    
     ->	In case of a tie, each player receives 1 QU.
+    
   •	Both players must pay their bid amounts, regardless of the outcome.
+  
   •	The auction continues until all x QU is distributed.
 
 **Objective**
@@ -18,7 +24,9 @@ Each player aims to collect more QU than their opponent. If both collect the sam
 **Key Challenges**
 
   •	Budget Management: Players must balance aggressive bidding to win QU while saving enough MU for future rounds or tiebreakers.
+  
   •	Predictive Strategy: Since bids are hidden, players need to anticipate the opponent’s behaviour based on past rounds.
+  
   •	Fairness & Tie-Breaking: The game uses remaining MU as a tie-breaking mechanism, promoting fair competition.
   
 **Possible Outcomes**
