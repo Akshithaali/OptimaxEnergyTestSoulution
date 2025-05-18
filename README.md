@@ -40,7 +40,9 @@ Each player aims to collect more QU than their opponent. If both collect the sam
 **Implemented Strategy**
 
 The game includes two bidders:
+
   •	Bidder 1: Uses a strategic approach.
+  
   •	Bidder 2: Uses a simple method, always bidding 20% of their remaining MU.
 
   **Strategic Bidder (Bidder 1)**
@@ -75,16 +77,24 @@ The game includes two bidders:
 **Components**
 
   •	Bidder.java: Interface defining the structure of a bidder.
+  
   •	StrategicBidder.java: Implementation of the strategic bidder.
+  
   •	SimpleOpponentBidder.java: Implementation of the simple opponent.
+  
   •	AuctionTestMainClass.java: Main class to simulate auction rounds.
+  
   •	StrategicBidderTest.java: Unit tests for the strategic bidder.
+  
   •	SimpleOpponentBidderTest.java: Unit tests for the simple bidder.
+  
 
 **System Requirements**
 
   •	Java 11 or higher
+  
   •	Maven or any other Java build tool
+  
   •	JUnit 5 for running tests
   
 **How to Execute the Program**
@@ -94,8 +104,11 @@ The game includes two bidders:
   3.	Navigate to AuctionTestMainClass.java inside the auction package.
   4.	Run the AuctionTestMainClass to simulate an auction between the strategic and simple bidders.
   5.	Preferred Execution Method:
+     
         ->	Import the project into Eclipse IDE.
+    	
         ->	Right-click on AuctionTestMainClass.java → Run As → Java Application.
+    	
         ->	To run tests, right-click on the test classes (StrategicBidderTest.java, SimpleOpponentBidderTest.java) → Run As → JUnit Test.
     	
 **Note:**
